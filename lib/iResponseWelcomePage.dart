@@ -16,9 +16,7 @@ class iResponseWelcomePage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Padding(
-              padding: const EdgeInsets.only(top: 50.0),
-              ),
+            SizedBox(height: 50.0),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Row(
@@ -46,9 +44,7 @@ class iResponseWelcomePage extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(top: 25.0),
-            ),
+            SizedBox(height: 10.0),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: TextField(
@@ -110,30 +106,24 @@ class iResponseWelcomePage extends StatelessWidget {
               ),
             ),
           ),
-            Padding(
-              padding: const EdgeInsets.only(top: 35.0),
-            ),
+            SizedBox(height: 20.0),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text('Already have an account?', style: TextStyle(color: Colors.black87, fontFamily:'Lato',fontSize: 14.0,fontWeight: FontWeight.bold) ,),
-                  FlatButton(
-                    onPressed: () {
-                    },
-                    child: Text('Sign in',
-                      style: TextStyle(color: Colors.green,
-                          fontFamily:'Lato',fontSize: 14.0,
-                        fontWeight:FontWeight.bold
-                        ) ,),
-                  ),
+                  FlatButton(onPressed: (){},
+                  child: Text('Sign in',
+                  style:TextStyle(
+                    color: Colors.green,
+                    fontWeight: FontWeight.bold,
+                  ) ,),
+                ),
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(top: 10.0),
-            ),
+            SizedBox(height: 3.0),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Row(
@@ -143,14 +133,11 @@ class iResponseWelcomePage extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(top: 5.0),
-            ),
+            SizedBox(height: 20.0),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-
                 children: [
                     ElevatedButton(
                     onPressed: () {
@@ -161,11 +148,7 @@ class iResponseWelcomePage extends StatelessWidget {
                       ),
 
                   ),
-                  FlatButton(
-                    onPressed: () {
-                    }, child: Text(''),
-                  ),
-
+                  SizedBox(width: 40.0),
                   ElevatedButton(
                     onPressed: () {
                     },
@@ -174,17 +157,11 @@ class iResponseWelcomePage extends StatelessWidget {
                       primary: Colors.white,
                     ),
                   ),
-                  // IconButton(
-                  //   icon: Image.asset('assets/fb.jpg'),
-                  //   iconSize: 10,
-                  //   onPressed: () {},
-                  // )
+
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(top: 10.0),
-            ),
+            SizedBox(height: 10.0),
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 15),
               child: Row(
@@ -221,9 +198,7 @@ class iResponseWelcomePage extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(top: 20.0),
-            ),
+            SizedBox(height: 20.0),
           ],
         ),
       ),
