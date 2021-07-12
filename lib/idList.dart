@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/quote.dart';
-
-import 'Quote_card.dart';
+// import 'package:flutter_demo/quote.dart';
+//
+// import 'Quote_card.dart';
 
 // ignore: camel_case_types
 class idList extends StatefulWidget {
