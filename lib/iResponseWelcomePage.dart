@@ -142,7 +142,7 @@ class iResponseWelcomePage extends StatelessWidget {
                     ElevatedButton(
                     onPressed: () {
                     },
-                      child:Image.asset('assets/gg.png',scale: 25.0,),
+                      child:Image.asset('assets/googleIcon.png',scale: 25.0,),
                       style: ElevatedButton.styleFrom(
                         primary: Colors.white,
                       ),
@@ -152,7 +152,7 @@ class iResponseWelcomePage extends StatelessWidget {
                   ElevatedButton(
                     onPressed: () {
                     },
-                    child:Image.asset('assets/fb.jpg',scale: 20.0,),
+                    child:Image.asset('assets/facebookIcon.jpg',scale: 20.0,),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.white,
                     ),
