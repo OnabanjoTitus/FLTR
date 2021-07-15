@@ -1,4 +1,5 @@
 
+import 'package:assignment_submission/iResponsePage6.dart';
 import 'package:assignment_submission/iResponseWelcomePage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -11,5 +12,5 @@ import 'package:flutter/material.dart';
 
 void main()=>
     runApp(MaterialApp(
-        home:iResponseWelcomePage()
+        home:iResponsePage6()
     ));
