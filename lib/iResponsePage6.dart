@@ -87,18 +87,104 @@ class iResponsePage6 extends StatelessWidget {
                       SizedBox(width: 8.0,),
                       Column(
                         children: <Widget>[
-                          Text('Take as many medical assessment as you like',
-                            style:TextStyle(fontWeight: FontWeight.w500,fontSize: 12.0),),
+                          Text('Take a Quick Assessment          ',
+                            style:TextStyle(fontWeight: FontWeight.w500,fontSize: 18.0),),
+                          SizedBox(height: 4.0,),
                           Text('Take as many medical assessment as you like',
                             style:TextStyle(fontWeight: FontWeight.w500,fontSize: 12.0,color: Colors.grey),),
-
                         ],
                       ),
                     ],
                   ),
                 ],
-              )
+              ),
+              SizedBox(height: 20.0,),
+              Row(
+                children: <Widget>[
+                  SizedBox(width: 45.0,),
+                  Row(
+                    children: <Widget>
+                    [
+                      ElevatedButton(
 
+                        onPressed: () {
+                        },
+                        child:Image.asset('assets/Appointment.png',scale: 1.0,),
+                        style:
+                        ElevatedButton.styleFrom(
+                            primary: Colors.indigo,
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(5.0),
+                                side: BorderSide(color: Colors.indigo)
+                            )
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                      SizedBox(width: 8.0,),
+                      Column(
+                        children: <Widget>[
+                          Text('Book an Appointment            ',
+                            style:TextStyle(fontWeight: FontWeight.w500,fontSize: 18.0),),
+                          SizedBox(height: 4.0,),
+                          Text('Book an appointment at your convenience',
+                            style:TextStyle(fontWeight: FontWeight.w500,fontSize: 12.0,color: Colors.grey),),
+                        ],
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+              SizedBox(height: 20.0,),
+              Row(
+                children: <Widget>[
+                  SizedBox(width: 45.0,),
+                  Row(
+                    children: <Widget>
+                    [
+                      ElevatedButton(
+
+                        onPressed: () {
+                        },
+                        child:Image.asset('assets/EAP.png',scale: 1.0,),
+                        style:
+                        ElevatedButton.styleFrom(
+                            primary: Colors.greenAccent,
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(5.0),
+                                side: BorderSide(color: Colors.greenAccent)
+                            )
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                      SizedBox(width: 8.0,),
+                      Column(
+                        children: <Widget>[
+                          Text('EAP                                                  ',
+                            style:TextStyle(fontWeight: FontWeight.w500,fontSize: 18.0),),
+                          SizedBox(height: 4.0,),
+                          Text('Connect with individuals with similar challenges',
+                            style:TextStyle(fontWeight: FontWeight.w500,fontSize: 12.0,color: Colors.grey),),
+                        ],
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+
+              SizedBox(height: 10.0,),
+              Row(
+                children: <Widget>[
+                  SizedBox(width: 45.0,),
+                  Text('Up coming Appointments(3)',
+                    style:TextStyle(fontWeight: FontWeight.w500,fontSize: 20.0),),
+                ],
+              ),
             ],
 
           ),
