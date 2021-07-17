@@ -12,38 +12,44 @@ class iResponsePage6 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar:AppBar(
-            centerTitle: false,
+      appBar:
+           AppBar(
+            toolbarHeight: 80, // Set this height
+            backgroundColor: Colors.green,
             title: Column(
-                children: <Widget>[
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
+              children: <Widget>[
+                Row(
                     children: <Widget>[
-                      Text("Check your"),
-                      SizedBox(width: 150.0),
+                      Text('Check your',
+                      style:TextStyle(fontWeight: FontWeight.normal),),
+                    ]
+
+                ),
+                Row(
+                    children: <Widget>[
+                      Text('Mental health',
+                        style:TextStyle(fontWeight: FontWeight.w500),),
+                      SizedBox(width: 120.0,),
                       Row(
+
                         children: <Widget>[
-                          FlatButton.icon(onPressed: (){},
-                              icon:Icon( Icons.notifications),
-                              label: Text(""))
-                        ],
-                      )
-                    ],
-                  ),
-                  SizedBox(height: 5.0),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    children: <Widget>[
-                      Text("Mental Health"),
-                    ],
-                  ),
-
-
-
+                          FlatButton.icon(onPressed: (){}, icon: Icon(Icons.notifications_none, color: Colors.white), label:Text(""),),
+                          Image.asset('assets/ManAvatar.png' ,height: 30.0,),
+                          ]
+                      ),
                 ]
+                ),
+              ],
             ),
-            backgroundColor: Colors.green
-      ),
+          ),
+        body: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[
+              Column()
+            ],
+          ),
+
+        ),
     );
   }
 }
