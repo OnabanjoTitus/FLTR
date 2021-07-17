@@ -45,10 +45,25 @@ class iResponsePage6 extends StatelessWidget {
         body: SingleChildScrollView(
           child: Column(
             children: <Widget>[
-              Column()
+              SizedBox(height: 20.0,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Image.asset('assets/NurseYoutubeAvatar.png' ,),
+                ],
+              ),
+              SizedBox(height: 10.0,),
+              Row(
+                children: <Widget>[
+                  SizedBox(width: 45.0,),
+                  Text('Features',
+                    style:TextStyle(fontWeight: FontWeight.w500,fontSize: 18.0),),
+                ],
+              )
             ],
           ),
 
+      
         ),
     );
   }

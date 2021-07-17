@@ -52,7 +52,11 @@ flutter:
     - assets/facebookIcon.jpg
     - assets/googleIcon.png
     - assets/ManAvatar.png
-    -
+    - assets/NurseAvatar.png
+    - assets/NurseYoutubeAvatar.png
+    - assets/Appointment.png
+    - assets/Assessment.png
+    - assets/EAP.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
