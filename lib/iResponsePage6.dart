@@ -57,12 +57,51 @@ class iResponsePage6 extends StatelessWidget {
                 children: <Widget>[
                   SizedBox(width: 45.0,),
                   Text('Features',
-                    style:TextStyle(fontWeight: FontWeight.w500,fontSize: 18.0),),
+                    style:TextStyle(fontWeight: FontWeight.w500,fontSize: 18.0,color: Colors.grey),),
+                ],
+              ),
+              Row(
+                children: <Widget>[
+                  SizedBox(width: 45.0,),
+                  Row(
+                    children: <Widget>
+                    [
+                      ElevatedButton(
+
+                        onPressed: () {
+                        },
+                        child:Image.asset('assets/Assessment.png',scale: 1.0,),
+                        style:
+                        ElevatedButton.styleFrom(
+                          primary: Colors.green,
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(5.0),
+                                side: BorderSide(color: Colors.green)
+                            )
+                        ),
+                      ),
+                    ],
+                  ),
+                  Row(
+                    children: <Widget>[
+                      SizedBox(width: 8.0,),
+                      Column(
+                        children: <Widget>[
+                          Text('Take as many medical assessment as you like',
+                            style:TextStyle(fontWeight: FontWeight.w500,fontSize: 12.0),),
+                          Text('Take as many medical assessment as you like',
+                            style:TextStyle(fontWeight: FontWeight.w500,fontSize: 12.0,color: Colors.grey),),
+
+                        ],
+                      ),
+                    ],
+                  ),
                 ],
               )
-            ],
-          ),
 
+            ],
+
+          ),
       
         ),
     );
