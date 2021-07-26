@@ -23,7 +23,6 @@ class iResponsePage6 extends StatelessWidget {
                       Text('Check your',
                       style:TextStyle(fontWeight: FontWeight.normal),),
                     ]
-
                 ),
                 Row(
                     children: <Widget>[
@@ -31,8 +30,7 @@ class iResponsePage6 extends StatelessWidget {
                         style:TextStyle(fontWeight: FontWeight.w500),),
                       SizedBox(width: 120.0,),
                       Row(
-
-                        children: <Widget>[
+                          children: <Widget>[
                           FlatButton.icon(onPressed: (){}, icon: Icon(Icons.notifications_none, color: Colors.white), label:Text(""),),
                           Image.asset('assets/ManAvatar.png' ,height: 30.0,),
                           ]

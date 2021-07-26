@@ -1,4 +1,4 @@
-import 'package:assignment_submission/Submission.dart';
+import 'package:assignment_submission/AssignmentSubmission/Submission.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

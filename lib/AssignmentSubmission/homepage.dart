@@ -1,6 +1,6 @@
-import 'package:assignment_submission/Lecturers_Login.dart';
-import 'package:assignment_submission/Login_students.dart';
-import 'package:assignment_submission/Students.dart';
+import 'package:assignment_submission/AssignmentSubmission/Lecturers_Login.dart';
+import 'package:assignment_submission/AssignmentSubmission/Login_students.dart';
+import 'package:assignment_submission/AssignmentSubmission/Students.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

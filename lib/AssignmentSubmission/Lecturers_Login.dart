@@ -1,4 +1,4 @@
-import 'package:assignment_submission/Lecturers.dart';
+import 'package:assignment_submission/AssignmentSubmission/Lecturers.dart';
 import 'package:flutter/material.dart';
 import 'Students.dart';
 
